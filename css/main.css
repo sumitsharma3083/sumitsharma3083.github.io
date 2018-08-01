@@ -1,0 +1,616 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+/* STYLING FOR HOME PAGE STARTS HERE */
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+    height: 100%;
+}
+.home
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: url(../images/mainbackground.jpeg) center center fixed no-repeat;
+    background-size: cover;
+}
+#body-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -1;
+}
+#main-content
+{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+#main-content h1
+{
+    padding-left: 20px;
+}
+#main-content p
+{
+    padding-left: 20px;
+}
+
+#menu-button
+{
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    border: none;
+    background: transparent;
+    z-index: 2;
+}
+
+#menu-icon
+{
+ color: #fff;
+ width: 100px;
+ font-size: 25px;
+ font-weight: 50;
+}
+#pic-section
+{
+    position: fixed;
+    top: 0;
+    background-color:#000;
+    opacity: .98;
+    height: 0;
+    width: 50%;
+    overflow: hidden;
+    
+}
+ .from-top
+ {
+  animation: from-top .5s ease-in-out forwards;
+ }
+ @keyframes from-top
+ {
+     0%
+     {
+    height: 0;
+     }
+     100%{
+     height: 100%;
+       }
+ }
+#menu-section
+{
+    position: fixed;
+    bottom: 0;
+    background-color:#000;
+    opacity: 0.9;
+    height: 0;
+    width: 50%;
+    right: 0;
+    
+}
+.from-bottom
+ {
+  animation: from-bottom .5s ease-in-out forwards;
+ }
+ @keyframes from-bottom
+ {
+     0%
+     {
+    height: 0;
+     }
+     100%{
+     height: 100%;
+       }
+ }
+ #full-name
+{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+#l-name
+{
+    color: rgb(202, 119, 29);
+}
+#description
+{
+    margin: 10px;
+    font-weight: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#social-media
+{
+   list-style-type: none;
+   margin-top: 30px;
+   padding: 0;
+   padding-left: 30px;
+}
+#social-media li
+{
+    display: inline-block;
+}
+#social-media li a{
+    text-decoration: none;
+    color: #fff;
+   margin-right: 20px;
+   font-size: 20px;
+}
+#myimg
+{
+   
+    border-radius: 50%;
+    border: 3px solid rgb(231, 182, 19);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: -50%;
+} 
+ .myimgfloat
+{
+    animation: myimganim .5s .5s ease-in-out  forwards; 
+}
+@keyframes myimganim
+{
+    0%
+    {
+      left: -50%;
+    }
+    100%
+    {
+      left: 20%;
+    }
+}
+#menu-list
+{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.menu-list-items
+{
+   padding: 10px 0px;
+   text-align: center;
+   position: relative;
+   left: 100%;
+ 
+   margin-bottom: 5px;
+}
+.menu-links
+{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.homelink
+{
+  animation: homelinkanim 0.5s ease-in-out  forwards;
+}
+@keyframes homelinkanim
+{
+    0%
+    {
+   left: 100%;
+    }
+    100%
+    {
+     left: 0;
+    }
+}
+.aboutlink
+{
+  animation: aboutlinkanim 0.5s ease-in-out .2s forwards;
+}
+@keyframes aboutlinkanim
+{
+    0%
+    {
+    left: 100%;
+    }
+    100%
+    {
+      left:0;
+    }
+}
+.myworklink
+{
+  animation: worklinkanim 0.5s ease-in-out .4s forwards;
+}
+@keyframes worklinkanim
+{
+    0%
+    { 
+    left: 100%;
+    }
+    100%
+    {
+      left:0;
+    }
+}
+.reachmelink
+{
+  animation: reachlinkanim 0.5s ease-in-out .6s forwards;
+}
+@keyframes reachlinkanim
+{
+    0%
+    {
+    left: 100%;
+    }
+    100%
+    {
+      left:0;
+    }
+}
+.active
+{
+    color: rgb(231, 182, 19);
+}
+
+/* Media queries - it will work when width will be less than 768pexels */
+@media(max-width:768px)
+{
+    #main-content
+    {
+        text-align: center;
+        padding-left: 0;
+    }
+    #pic-section
+     {
+      position: fixed;
+      top: 0;
+      height: 40%;
+      width: 0;
+      overflow: hidden;
+      background-color:#000;
+      opacity: .98;
+     }
+     .from-top
+      {
+  animation: from-top .5s ease-in-out forwards;
+      }
+    @keyframes from-top
+     {
+     0%
+     {
+   width: 0;
+     }
+     100%{
+    width: 100%;
+    
+       }
+      }
+     #menu-section
+     {
+        position: fixed;
+        height: 60%;
+        bottom: 0;
+        width:0;
+        background-color: #000;
+        opacity: .93;
+    }
+    .from-bottom
+      {
+  animation: from-bottom .5s ease-in-out forwards;
+      }
+ @keyframes from-bottom
+    {
+     0%
+     {
+     width: 0;
+     }
+     100%
+     {
+     width: 100%;
+     }
+    }
+
+
+    #myimg 
+    {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 182, 19);
+    height: 100px;
+    width: 100px;
+   
+    }
+   .myimgfloat
+    {
+    animation: myimganim .5s .5s ease-in-out  forwards; 
+    }
+@keyframes myimganim
+{
+    0%
+    {
+      left:40%;
+    }
+    100%
+    {
+       left: 40%;
+    }
+}
+#menu-list
+{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+}
+    
+ }
+
+
+
+ /* About page styling starts here */
+
+ .about
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100vw;
+    background: rgba(16, 15, 15, 0.736);
+    overflow-x: hidden;
+
+ }
+
+ #about-me
+ {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  width: 100%;
+ }
+ #about-me-title
+ {
+  font-size: 40px;
+  font-family: 'Arimo', sans-serif;
+  padding-left: 30px;
+  margin-bottom: 10px;
+ }
+ #about-me-title span
+ { 
+     color:  rgb(231, 182, 19);
+
+ }
+ #about-me-description
+ {
+   padding-left: 30px;
+
+ }
+ #image-bio
+ {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 70%;
+    margin-left: 20px;
+ }
+ #about-img
+ {
+     border-radius: 50%;
+     height: 120px;
+     width: 120px;
+     border: 2px solid  rgb(231, 182, 19);
+     align-self: center;
+     justify-self: center;
+ }
+ #bio-title
+ {
+   text-align: center;
+   background-color: rgb(231, 182, 19);
+   margin:0;
+ }
+ #bio-description
+ {
+   text-align: center;
+   margin:0;
+   padding: 10px 20px;
+ }
+ #about-technologies
+ {
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-gap: 5px;
+   width: 70%;
+   margin: auto;
+  
+ }
+ #about-technologies h1{
+     font-size: 20px;
+ }
+ #about-technologies p{
+    font-size: 13px;
+    line-height: 1.2;
+}
+ #web-tech
+ {
+   text-align: center;
+   border-bottom: 2px solid rgb(231, 182, 19);
+   margin-bottom: 20px;
+   background-color: #333;
+   padding: 10px;
+ }
+#other-tooling
+{
+    text-align: center;
+    border-bottom: 2px solid rgb(231, 182, 19);
+    margin-bottom: 20px;
+    background-color: #333;
+   padding: 10px;
+}
+
+/* Media queries for about page */
+@media(max-width: 768px)
+{
+    #about-me-title
+    {
+        text-align: center;
+    }
+    #about-me-description
+    {
+        text-align: center;
+    }
+    #image-bio
+ {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 80%;
+    margin:auto;
+    grid-gap: 5px;
+ }
+ #about-technologies
+ {
+   display: grid;
+   grid-template-columns: 100%;
+   grid-gap: 5px;
+   width: 70%;
+   margin: auto;
+ }
+}
+
+
+/* Styling for reach me page */
+
+.reach
+{
+    margin: 0;
+    background: url(../images/reachbg.jpg) center center fixed no-repeat;
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+#title1
+{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+#title2
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    font-size: 25px;
+}
+#title2 span{
+    color: rgb(231, 182, 19);
+}
+#contact-section
+{
+display: grid;
+width: 50%;
+margin: auto;
+grid-template-columns: 50% 50%;
+grid-gap: 30px;
+padding: 30px 0px;
+}
+#address
+{
+    background-color: #222;
+}
+#address h1
+{
+  background-color:  rgb(231, 182, 19);
+  text-align: center;
+   margin: 0;
+   font-size: 25px;
+}
+#address p{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+#phone
+{
+    background-color: #333;
+}
+#phone h1
+{
+    background-color:  rgb(231, 182, 19);
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+#phone p{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+#email-section
+{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  background-color: #444;
+ border-radius: 10px;
+}
+#email-section h1
+{
+    background-color: rgb(231, 182, 19);
+    margin: 0;
+    font-size: 25px;
+}
+#email-section p{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 1030px)
+{
+    #contact-section
+    {
+     width: 70%; 
+    }
+    #email-section
+    {
+    width: 70%;
+    }
+}
+@media(max-width: 768px)
+{
+    #contact-section
+    {
+     width: 90%;
+     grid-template-columns: 100%
+    }
+    #email-section
+    {
+    width: 90%;
+    }
+    #title2
+    {
+        width: 90%;
+    }
+
+    
+}
