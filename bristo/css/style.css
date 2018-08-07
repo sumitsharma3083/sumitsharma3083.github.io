@@ -1,0 +1,669 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#header-1
+{
+    min-height: 500px;
+   background: url(../images/coffee.jpeg) center center  no-repeat;
+   background-size: cover;
+}
+
+/* Navigations styling starts here */
+.fa-bars
+{
+  color: rgb(230, 86, 20);
+}
+
+.navbar-toggler
+{
+    border-radius: 50% !important;
+    background-color: #fff !important;
+}
+#full-navbar
+{
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand
+{
+   
+     color: #fff !important;
+     font-family: cursive;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-brand-style
+{
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.animated-brand-style
+{
+    background-color: transparent;
+    color: rgb(230, 86, 20);
+}
+.navbar
+{
+    width: 80%;
+    margin: auto;
+}
+.navbar-nav
+{
+    width: 100%;
+    text-transform: uppercase;
+}
+.nav-link
+{
+    color: rgb(230, 86, 20) !important;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-item
+{
+    font-size: 10px;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+
+  /* Top-heading styling starts Here */
+#top-heading
+{
+    text-align: center;
+    
+}
+#top-heading h1
+{
+   
+    width: 50%;
+    margin: auto;
+    color: rgb(230, 86, 20);
+    font-size: 30px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+
+/* Main styling starts */
+main
+{
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h2
+{
+    font-size: 20px;
+    color: #000;
+}
+main h1
+{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #000;
+}
+main button
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 20px;
+    border-radius: 5px;
+     border: none;
+     margin-top: 10px;
+     background-color: rgb(230, 86, 20);
+     color: #fff;
+}
+
+/* service section styling */
+#section-a
+{
+    padding: 100px 0px;
+}
+#service-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+
+}
+#service-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#section-a .row
+{
+    width: 80% !important;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services-container h5
+{
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Portfolio section styling starts */
+.card-overlay
+{
+    width: 100%;
+    height:200px;
+    opacity: 0.9;
+    background-color: #ebac0d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.card-overlay i
+{
+     position: absolute;
+     top: 40%;
+     left: 40%;
+     color: #fff;
+     font-size: 34px;
+}
+#section-b
+{
+    background-color: #eee;
+    padding: 50px 0px;
+}
+#portfolio-head
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#portfolio-text
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#section-b .row
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    height: 300px;
+}
+.card
+{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.card-title
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   background-color: #333;
+   color: #fff;
+   
+}
+.card-text
+{
+    font-family: cursive;
+    color: #777;
+    text-align: center;
+}
+.card-img-top
+{
+    height: 200px;
+    width: 100%;
+}
+
+/* about section styling starts */
+#section-c
+{
+    background: url(../images/bgAbout.jpg) center center fixed no-repeat;
+    background-size: cover;
+   color: #000;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-bottom: 30px;
+}
+#about-title
+{
+   text-align: center;
+   text-transform: uppercase;
+}
+#about-text
+{
+   text-align: center;
+}
+#about-container
+{
+    width: 50%;
+    margin: auto;
+}
+#about-row1
+{
+    height: 150px;
+}
+#about-row1 h3
+{
+  font-size: 20px;
+  text-align: center;
+}
+#about-row1 p
+{
+  font-size: 15px;
+  text-align: center;
+  line-height: 1;
+}
+#about-row1 img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#about-row2
+{
+    height: 150px;
+}
+
+#about-row2 h3
+{
+  font-size: 20px;
+  text-align: center;
+}
+#about-row2 p
+{
+  font-size: 15px;
+  text-align: center;
+  line-height: 1;
+}
+#about-row2 img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#about-row3
+{
+    height: 150px;
+}
+#about-row3 h3
+{
+  font-size: 20px;
+  text-align: center;
+}
+#about-row3 p
+{
+  font-size: 15px;
+  text-align: center;
+  line-height: 1;
+}
+#about-row3 img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#about-row4
+{
+    height: 150px;
+}
+#about-row4 h3
+{
+  font-size: 20px;
+  text-align: center;
+}
+#about-row4 p
+{
+  font-size: 15px;
+  text-align: center;
+  line-height: 1;
+}
+
+
+#about-row4 img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#about-row5 
+{
+ height: 150px;
+}
+#about-row5 #middle-one
+{
+    border-radius: 50%;
+    background-color: rgb(230, 86, 20);
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+}
+#middle-one h1
+{
+    font-size: 20px;
+    margin-top: 50px;
+    color: #fff;
+}
+.line
+{
+ height: 70px;
+ width: 2px;
+ border: 1px solid #fff;
+ margin: auto;
+}
+
+
+
+/* team section styling starts here */
+#section-d
+{
+    background-color: #eee;
+    padding: 100px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container
+{
+    width: 60%;
+    margin: auto;
+
+}
+#team-title
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#team-text
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+#team-summary
+{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+#team-member-left
+{
+   text-align: center;
+}
+#team-member-center
+{
+    text-align: center;
+}
+#team-member-right
+{
+    text-align: center;
+}
+#container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+/* contact section starts here */
+
+#section-e
+{
+   width: 100%;
+}
+#contact-part-1
+{
+   
+    text-align: center;
+    background: url(../images/parallax-bg.jpeg) center center fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif;
+}
+#contact-part-2
+{
+    background: url(../images/contact-bg.jpeg) center center no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+}
+#contact-container
+{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+#contact-overlay
+{
+    height: 100%;
+    width: 100%;
+    position: abslute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
+#contact-info
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#contact-form
+{
+    width: 100%;
+}
+#contact-form form{
+    width: 30%;
+    margin: auto;
+}
+#contact-form form *
+{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+#contact-form form input[type="submit"]
+{
+    width: 50%;
+    margin: auto;
+    padding: 5px 10px;
+    margin-top: 1em;
+    color: #fff;
+    background-color:rgb(230, 86, 20);
+    border-radius: 5px;
+    border: none;
+}
+
+/* footer styling starts here */
+footer
+{
+   background-color: rgb(230, 86, 20);
+   padding-top: 10px;
+}
+#footer-container
+{
+    margin: auto;
+}
+footer p
+{
+    color: #fff;
+}
+
+
+/* icons styling starts */
+.fa-coffee
+{
+    margin-right: 10px;
+}
+.fa-phone
+{
+    margin-right: 2px;
+}
+.fa-info
+{
+    margin-right: 2px;
+}
+.fa-smile-beam
+{
+    margin-right: 2px;
+}
+.fa-users
+{
+margin-right: 2px;
+}
+.fa-hands-helping
+{
+    margin-right: 2px;
+}
+#service-icon
+{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+#portfolio-icon
+{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+#team-icon
+{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+#contact-icon
+{
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+    right: 5px;
+}
+
+
+/* active class style */
+.myactive
+{
+    background-color: rgb(230, 86, 20);
+    color: #fff !important;
+    border-radius: 5px;
+}
+.home-icons
+{
+    border-radius: 50%;
+    background:  rgb(230, 86, 20);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+/* media queries applies  */
+@media(max-width: 768px)
+{
+    footer
+    {
+        text-align: center;
+    }
+    #contact-form form
+    {
+        width: 80%;
+        margin: auto;
+    }
+    #team-member-left
+    {
+        margin-bottom: 20px;
+    }
+    #team-member-center
+    {
+        margin-bottom: 20px;
+    }
+    #about-container
+    {
+        width: 80%;
+    }
+    #about-container .row
+    {
+       margin-bottom: 20px;
+       text-align: center;
+    } 
+    #about-container *
+    {
+       height: auto;
+    }
+    .line
+    {
+        display: none;
+    }
+    #about-row1 img
+    {
+        border-radius: 50%;
+        width: 50%
+    }
+    #about-row2 img
+    {
+       
+        border-radius: 50%;
+        width: 50%
+    }
+    #about-row3 img
+    {
+       
+        border-radius: 50%;
+        width: 50%
+    }
+    #about-row4 img
+    {
+      
+        border-radius: 50%;
+        width: 50%
+    }
+    #about-row5 #middle-one
+    {
+        border-radius: 0;
+    }
+    #section-b .row{
+      height: auto;
+      width: 60%;
+   }
+   main
+   {
+       width: 100%;
+       text-align: center;
+      position: absolute;
+      left: 0;
+   }
+}
