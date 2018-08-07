@@ -5,13 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+ html{
+     height: 100%;
+ }
 .home
 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
     margin: 0;
+    height: 100%;
     width: 100vw;
     overflow-x: hidden;
     background: url(../images/mainbackground.jpeg) center center fixed no-repeat;
