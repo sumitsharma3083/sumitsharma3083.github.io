@@ -304,7 +304,7 @@
      }
     }
 
-
+    
     #myimg 
     {
       position: absolute;
@@ -552,4 +552,14 @@
           margin: 20px auto;
           font-family: 'Arimo', sans-serif;
     }  
+}
+
+#ticTacText
+{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    background-color: #111;
+    padding: 10px 0px;
 }
