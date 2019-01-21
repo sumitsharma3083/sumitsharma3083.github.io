@@ -662,6 +662,14 @@ transition: all 0.3s
         width: 90%;
     }   
 }
+@media(max-width: 600px){
+    #about-technologies
+    {
+      display: block;
+      width: 90%;
+      margin: auto;
+    }
+}
 #reach-overlay
 {
     position: fixed;
