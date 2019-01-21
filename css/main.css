@@ -397,6 +397,7 @@
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  text-align: center;
  }
  #about-me-title
  {
@@ -445,8 +446,7 @@
  }
  #about-technologies
  {
-   display: grid;
-   grid-template-columns: 1fr 1fr ;
+   
    grid-gap: 5px;
    width: 70%;
    margin: auto;
@@ -462,10 +462,13 @@
  #web-tech
  {
    text-align: center;
-   border-bottom: 2px solid rgb(231, 182, 19);
+   border: 2px solid rgb(231, 182, 19);
    margin-bottom: 20px;
    background-color: #333;
    padding: 10px;
+   width: 50%;
+   margin: auto;
+   margin-bottom: 10px;
  }
 #other-tooling
 {
@@ -601,6 +604,36 @@ padding: 30px 0px;
     font-size: 20px;
     padding-bottom: 20px;
 }
+.fa-facebook-f{
+    transition: all 0.3s;
+}
+.fa-facebook-f:hover
+{
+  color : #3f5d9a;
+}
+.fa-linkedin-in
+{
+    transition: all 0.3s
+}
+.fa-linkedin-in:hover{
+    color: #283e4a;
+}
+.fa-instagram{
+transition: all 0.3s
+}
+.fa-instagram:hover{
+  color: #c8007b;
+}
+
+.fa-github
+{
+    transition: all 0.3s
+}
+.fa-github:hover
+{
+      color: #24292e;
+}
+    
 
 @media(max-width: 1030px)
 {

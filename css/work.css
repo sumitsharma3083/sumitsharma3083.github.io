@@ -528,7 +528,13 @@
    text-decoration: none;
    padding: 10px 0px;
 }
-
+.github_link
+{
+    transition: all 0.3s
+}
+.github_link:hover{
+    background:rgb(231, 182, 19) !important;
+}
 @media(max-width: 1050px)
 {
     #work-content
