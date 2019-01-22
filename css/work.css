@@ -13,8 +13,8 @@
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background: url(../images/workBgImg.jpg) center center fixed no-repeat;
-    background-size: cover;
+    background: url(../images/workBgImg.jpg) center center fixed no-repeat !important;
+    background-size: cover !important;
 }
 #work-overlay
 {
