@@ -480,7 +480,8 @@
    text-align: center;
    border: 2px solid rgb(231, 182, 19);
    margin-bottom: 20px;
-   background-color: #333;
+   background-color: #000;
+   opacity: 0.8;
    padding: 10px;
    width: 50%;
    margin: auto;
