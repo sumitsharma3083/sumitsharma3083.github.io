@@ -1,0 +1,546 @@
+
+/* Navbar styling starts here ... */
+html{
+    scroll-behavior: smooth ; 
+}
+body{
+    margin: 0 ; 
+    width: 100vw ; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+}
+.main-navbar{
+    position: fixed;
+    z-index: 999 ;
+    width: 100%; 
+    padding-top: 10px ; 
+    margin-bottom: 20px;   
+    background-color: #2a363b ;
+  
+}
+.turnblack{
+    animation: turnblack 1s linear forwards;
+}
+@keyframes turnblack{
+  0%{
+    background : #2a363b ; 
+  }
+  100%{
+     background : rgba(0,0,0, .5)
+  }
+}
+
+
+
+.navbar-wrapper{
+    width: 90% ;
+    padding: 10px 0 ; 
+    margin: auto ;
+   
+}
+.navbar-list{
+    text-align: center ;
+    position: relative;
+    bottom: 15px; 
+    float: right ;
+    display: inline-block;
+    padding: 0 ;
+    list-style-type: none ; 
+    width: 50% ;
+}
+.navbar-list li {
+  display: inline-block;
+  margin-right: 30px ;
+}
+.site-logo{
+    color: #fff ; 
+    text-decoration: none ; 
+    text-transform: capitalize ; 
+    font-size: 1.5rem ;
+}
+.navlink{
+    color: #999 ; 
+    text-decoration: none ; 
+    text-transform: capitalize ; 
+    font-size: 1rem ;
+    font-weight: 400;
+    transition-duration: .3s ;
+    transition-property: all ; 
+    transition-timing-function: linear ; 
+}
+.active{
+    color: #fff ; 
+    text-decoration: none ; 
+    text-transform: capitalize ; 
+    font-size: 1.2rem ;
+    font-weight: 400;
+}
+.navlink:hover{
+   color: #bbb ;
+}
+
+
+/* section 1 styling starts .. */
+.section-1{
+    margin: 0;
+    display: grid ; 
+    grid-gap: 10px ;
+    grid-template-columns: 1fr 1fr ; 
+    background-color:  #2a363b;
+    padding: 100px 40px ;
+}
+.section-1-subleft div h3{
+    color: #fff ;
+    font-weight: 100;
+    font-size: 3rem ;
+}
+.section-1-subleft div p{
+ color: #999; 
+ line-height: 1.5rem
+}
+.btn-101{
+    margin-top: 1rem;
+    background-color: #b32f30;
+    color: #fff; 
+    border: none ;
+    cursor: pointer ; 
+    padding: 15px 20px; 
+    font-size: 1rem; 
+    border-radius: 5px; 
+    outline: none ;
+}
+.section-1-subleft div{
+   text-align: left;
+}
+.section-1-subright img{
+ width: 70% ; 
+ height: 600px; 
+}
+
+
+/* Section 2 starts here  ..  */
+.section-2{
+  margin:  0 ;
+  background-color: #263135;
+  padding: 60px 0 ;
+}
+.section-2-subtop div{
+    width: 50%; 
+    margin: auto ;
+    text-align: center ;
+    color: #fff; 
+}
+.section-2-subtop div h1{
+ text-transform: capitalize; 
+ font-weight: 100 ;
+ font-size: 2.5rem ;
+}
+.section-2-subtop div p{
+  color: #999 ;
+  text-transform: capitalize; 
+}
+.btn-102{
+    margin-top: 1rem;
+    background-color: #b32f30;
+    color: #fff; 
+    border: none ;
+    cursor: pointer ; 
+    padding: 15px 20px; 
+    font-size: 1rem; 
+    border-radius: 5px; 
+    outline: none ;
+    text-transform: capitalize ;
+}
+.section-2-subbottom{
+    position: relative; 
+    padding: 40px 0 ;
+    height : 500px; 
+}
+.img-left{
+    position: absolute; 
+    height: 450px ;
+    top: 15% ;
+    left: 4% ;
+}
+.img-right{
+    position: absolute;
+    height: 450px ;
+    top: 15% ;
+    left: 38% ;
+
+}
+.img-center{
+    position: absolute ;
+    height: 550px ;
+    top: 10% ;
+    left: 15% ;
+    z-index: 3;
+}
+
+
+/* section 3 styling starts  */
+ .section-3{
+   background: url(../images/pexels-photo-799443.jpg) center center;
+   background-size: cover;
+ }
+
+ .section-3-overlay{
+  padding: 20px 0 ;
+  width: 100%; 
+  background-color: rgba(0, 0, 0, .8)
+}
+ .section-3-container{
+   width: 50%; 
+   margin: auto ;
+   text-align: center; 
+}
+
+ .section-3-container h3{
+   font-size: 50px; 
+   font-weight: 100 ;
+    color: #fff ; 
+}
+
+.btn-103{
+    margin-top: 1rem;
+    background-color: #b32f30;
+    color: #fff; 
+    border: none ;
+    cursor: pointer ; 
+    padding: 25px 30px; 
+    font-size: 1.3rem; 
+    font-weight: 100; 
+    border-radius: 5px; 
+    outline: none ;
+    text-transform: capitalize ;
+} 
+
+
+/* section 4 styling starts...  */
+
+.section-4{
+width: 100% ; 
+background-color: #263135;
+padding: 10px 0 ;
+}
+.section-4-container{
+   width: 60%;
+   display: grid; 
+   grid-template-columns: 1fr 1fr ;
+   grid-gap: 10px; 
+   padding: 20px 0 ;
+   margin: 20px auto;
+}
+.section-4-container-individual{
+    text-align: center ; 
+}
+
+.fa-accessible-icon{
+    font-size: 2rem ;
+    color: #b32f30; 
+}
+.myhead-101{
+    color : #fff; 
+font-size: 1.5rem; 
+text-transform: capitalize; 
+}
+.mytext-101{
+    color: #999;
+    line-height: 1.5rem ; 
+   font-size: 1rem ; 
+   text-transform: capitalize; 
+}
+
+
+ /* section 5 styling starts ... */
+.section-5{
+width: 100%; 
+padding: 10px 0 ; 
+background-color: #2a363b;
+}
+.section-5-container{
+ width: 70% ;
+ margin: auto ;
+}
+.section-5-top{
+    text-align: center ;
+    margin-bottom: 60px ;
+}
+.section-5-top h1{
+  text-transform: capitalize ; 
+  color: #fff; 
+  font-size: 2rem ;
+}
+.section-5-top p{
+ text-transform: capitalize; 
+ color : #999; 
+}
+.section-5-bottom{
+ display: grid ; 
+ grid-template-columns: 1fr 1fr 1fr ; 
+ grid-gap: 40px ;
+}
+.section-5-bottom div {
+    text-align: center; 
+}
+.section-5-bottom div img {
+    height: 70px ;
+    width: 70px; 
+    border-radius: 50% ;
+}
+.section-5-bottom div h3 {
+ color : #fff; 
+}
+.section-5-bottom div p{
+  color : #999 ;
+}
+
+
+
+/* Footer styling starts .. */
+.footer{
+    padding: 100px 0 ;
+    background-color: #2a363b;
+}
+.footer-container{
+    width: 70% ; 
+    margin: auto ;
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    grid-gap: 20px; 
+}
+.footer-container div{ 
+    text-align: center;
+}
+.footer-text{
+    color : #999 ;
+}
+
+.social-logo{
+    color : #263135 ;
+    margin-right: 20px ;
+    background-color: #999;
+    padding: 15px 20px; 
+    border-radius: 50% ;
+    font-size: 1.5rem ;
+    transition-duration: .1s ;
+    transition-property: all ;
+    transition-timing-function: linear ;
+}
+.social-logo:hover{
+    color: #b32f30 ; 
+}
+
+
+ /* section 6 styling starts ...  */
+
+.section-6{
+    background-color: #263135;
+    width: 100%; 
+    padding: 10px 0 ; 
+}
+.section-6-container{
+    width: 70%; 
+    margin: auto ;
+}
+.contact-info-container{
+    width: 100%; 
+    text-align: center ; 
+    padding-bottom: 25px; 
+}
+.contact-info-container h1{
+    color: #fff ;
+  font-size: 2rem ;
+  text-transform: capitalize; 
+}
+.contact-info-container p{
+    color: #999 ;
+    font-size: 1.2rem ; 
+    text-transform: capitalize ; 
+}
+.contact-form-container{ 
+    width: 100%; 
+    padding: 15px 0 ;
+}
+.contact-form-container div{
+    margin-bottom: 10px; 
+}
+.contact-form { 
+    width: 100%; 
+}
+.FandL{
+    display: grid ; 
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 5px; 
+}
+.FandL input{
+    padding:  1rem  0;
+    color : #fff; 
+    outline: none; 
+    font-size: 1.2rem ; 
+    border-radius: 5px; 
+    border: 1.5px solid #999; 
+    background-color: #263135;
+}
+.input-email , .input-message{
+    padding: 1rem 0 ;
+    color : #fff ;
+    border: 1.5px solid #999 ;
+    background-color: #263135;
+    border-radius: 5px; 
+    font-size: 1.2rem ; 
+    outline: none; 
+    width: 100%; 
+}
+.address-info-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding: 1rem 0 ; 
+    width: 100%; 
+    grid-gap: 10px; 
+}
+.address-info-container div
+{
+    text-align: center; 
+}
+.address-info-container div p {
+   color : #999 ;
+   font-size: 1.5rem ;
+}
+
+.fa-map-marker-alt{
+    font-size: 2.5rem ;
+  color : #b32f30 ;
+}
+.fa-envelope-square{
+    font-size: 2.5rem ;
+  color: #b32f30 ;
+}
+.fa-phone{
+    font-size: 2.5rem ;
+ color: #b32f30; 
+}
+
+
+.mobile-responsive-navbar{
+    padding: 0;
+   height : 0;
+   display: none; 
+   overflow: hidden ;
+}
+
+.ShowNav{
+    animation: navbarAnimShow .3s linear forwards;
+}
+
+@keyframes navbarAnimShow{
+   0%{
+       height: 0; 
+   }
+   100%{
+       height : 120px; 
+   }
+}
+
+
+.mobile-responsive-navlist{
+     list-style-type: none; 
+     text-align: center; 
+     
+}
+
+.hamburger-menu{
+    float : right;
+    display: none ; 
+    background : transparent;
+    border: 1px solid #999; 
+    border-radius: 50%; 
+    padding: 10px ;
+    color : #fff ; 
+    cursor: pointer  ;
+    outline: none ; 
+}
+/* Media queries for the webpage */
+@media(max-width : 768px){
+ 
+    .navbar-list{
+        display: none; 
+    }
+    .mobile-responsive-navbar{
+        display: block ;
+    }
+      .hamburger-menu {
+          display: block ;
+      }
+      .section-1{
+        margin: 0;
+        display: grid ; 
+        grid-gap: 10px ;
+        grid-template-columns: 1fr ; 
+        background-color:  #2a363b;
+        padding: 100px 40px ;
+    }
+    .section-1-subleft div h3{
+        color: #fff ;
+        font-weight: 100;
+        font-size: 2rem ; 
+    }
+    .section-1-subright{
+        text-align: center; 
+    }
+    .section-1-subright img{
+        width: 70% ; 
+        height: 400px; 
+       }
+       .section-2-subbottom{
+           display : none ; 
+       }
+       .img-left{
+         display: none; 
+       }
+       .img-center{
+         display: none; 
+       } 
+       .img-right{
+       display:  none  ; 
+       }
+       .section-3-container h3{
+        font-size: 30px; 
+        font-weight: 50 ;
+         color: #fff ; 
+     }
+     .section-4-container{
+        width: 60%;
+        display: grid; 
+        grid-template-columns: 1fr ;
+        grid-gap: 10px; 
+        padding: 20px 0 ;
+        margin: 20px auto;
+     }
+     .section-5-bottom{
+        display: grid ; 
+        grid-template-columns: 1fr ; 
+        grid-gap: 30px ;
+       }
+       .section-5-bottom div {
+        border-bottom : .5px solid #999 ;
+    }
+    .FandL{
+        display: grid ; 
+        grid-template-columns: 1fr ;
+        grid-gap: 5px; 
+    }
+    .address-info-container{
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        padding: 1rem 0 ; 
+        width: 100%; 
+        grid-gap: 10px; 
+    }
+    .footer-container{
+        width: 70% ; 
+        margin: auto ;
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        grid-gap: 20px; 
+    }
+}
