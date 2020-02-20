@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  font-family: sans-serif ;
+}
 .work
 {
     position: absolute;
@@ -445,6 +448,40 @@
     margin-bottom: 20px;
 }
 
+
+.links-section
+{
+  width: 70%; 
+  margin: auto ;
+  padding: 1.5rem 0 ;
+}
+.link-text-large{
+  text-align: center ;
+  font-size: 3rem ; 
+  text-transform: capitalize ;
+  color : rgb(231,182,19) ;
+  margin: 0;
+}
+.link-text-small{
+  text-align: center ;
+  color: #fff;
+  font-size: 1rem ; 
+  text-transform: capitalize ;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.links-list{
+  list-style-type : decimal ;
+  color : #fff;
+}
+.links-list li{
+  margin-bottom: 1rem;
+}
+.links-list li > a{
+  color : #fff ;
+  text-transform: capitalize ;
+  text-decoration: none;
+}
 /* Media queries for about page */
 
 
@@ -569,3 +606,4 @@
     background-color: #111;
     padding: 10px 0px;
 }
+

@@ -9,6 +9,9 @@
  html{
      height: 100%;
  }
+ body{
+     text-transform: capitalize;
+ }
 .home
 {
     position: absolute;
@@ -457,6 +460,7 @@
  #bio-description
  {
    text-align: center;
+   line-height: 1.8rem ;
    margin:0;
    padding: 10px 20px;
  }
@@ -520,8 +524,26 @@
    display: grid;
    grid-template-columns: 100%;
    grid-gap: 5px;
-   width: 70%;
+   width: 90%;
    margin: auto;
+ }
+ #web-tech{
+    text-align: center;
+    border: 2px solid rgb(231, 182, 19);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #000;
+    opacity: 0.8;
+ }
+ #bio-description
+ {
+   text-align: center;
+   line-height: 1.8rem ;
+   margin: 1rem 0;
+   padding: 10px 20px;
  }
 }
 
@@ -563,11 +585,10 @@
 }
 #contact-section
 {
-display: grid;
+
 width: 50%;
 margin: auto;
-grid-template-columns: 50% 50%;
-grid-gap: 30px;
+
 padding: 30px 0px;
 }
 #address
@@ -680,7 +701,11 @@ transition: all 0.3s
     #title2
     {
         width: 90%;
-    }   
+    }  
+    #title1{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    } 
 }
 @media(max-width: 600px){
     #about-technologies
@@ -702,5 +727,22 @@ transition: all 0.3s
     z-index: -1;
 }
 
-
+.frontend-list{
+    list-style-type : circle ;
+}
+.frontend-list li{
+    margin-bottom: 1rem;
+}
+.backend-list{
+    list-style-type: circle ;
+}
+.backend-list li{
+    margin-bottom: 1rem ;
+}
+.database-list{
+    list-style-type: none ;
+}
+.other-languages{
+    list-style-type: none;
+}
 /* logo styling starts here */
