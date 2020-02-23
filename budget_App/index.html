@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget app for Everyone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+    <div class="container">
+            <div class="alert alert-primary main-header" role="alert">
+                   BUDGET APP
+             </div>
+             <div class="row top-row">
+              <div class="col-md-4">
+                    <div class="budget-box">
+                            <span class="warning_msg_budget">Please fill out the field</span>
+                        <h5>
+                            ENTER YOUR BUDGET
+                        </h5>
+                       <input type="number" required class="budget-input">
+                        <button class="calculate_btn">
+                        CALCULATE
+                        </button>
+                    </div>   
+              </div>
+              <div class="col-md-8">
+                    <div class="row info-box">
+                       <div class="col-md-4">
+                            <h1 class="price-tag">BUDGET</h1>
+                            <i class="fas fa-money-bill"></i>
+                             <h3 class="budget-price-tag">$<span class="budget_value">0</span></h3>
+                       </div>
+                       <div class="col-md-4">
+                            <h1 class="price-tag">EXPENSES</h1>
+                            <i class="far fa-credit-card"></i>
+                            <h3 class="expense-price-tag">$ <span class="expense_value">0</span></h3>
+                       </div>
+                       <div class="col-md-4">
+                            <h1 class="price-tag">BALANCE</h1>
+                            <i class="fas fa-dollar-sign"></i>
+                            <h3 class="balance-price-tag">$ <span class="balance_value">0</span></h3>
+                       </div>
+                    </div> 
+              </div>
+             </div>
+              <div class="row bottom-row">
+                  <div class="col-md-4">
+                         <div class="expense-box">
+                              <span class="warning_msg_expense">Please fill out the field</span>
+                             <h5>ENTER YOUR EXPENSES</h5>
+                             <input type="text" class="expense-input">
+                             <h5 class="expense-header">ENTER YOUR EXPENSES PRICE</h5>
+                             <input type="number" class="expense-input" id="expense-input">
+                             <button class="expense_btn">
+                                 EXPENSES
+                             </button>
+                         </div>
+                  </div>
+                   <div class="col-md-8">
+                        <div class="row">
+                           <div class="col-md-6">Expense Title</div>
+                           <div class="col-md-6">Expense Price</div>
+                        </div>
+                     
+          <ul class="list-group">
+              
+          </ul>
+                   </div>
+
+              </div>
+    </div>
+
+   
+    <script src="js/action.js">
+    </script>
+</body>
+</html>

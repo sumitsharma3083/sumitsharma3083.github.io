@@ -1,0 +1,110 @@
+.main-head{
+    position: absolute ;
+    top: 30%; 
+    left: 10%; 
+  font-size: 6rem ;
+  color: #000 ;
+  opacity: 0;
+  font-weight: bolder ;
+  text-transform: uppercase ;
+  animation: mainHeadAnim .5s linear 1s 1 forwards ;
+}
+@keyframes mainHeadAnim{
+    0%{
+    opacity: 0;
+    }
+    50%{
+    opacity: .5;
+    }
+    100%{
+   opacity: 1;
+    }
+}
+.myspan-1{
+    text-transform: capitalize;
+     font-size: 1rem ;
+}
+.beginner-section-container {
+  padding: 1rem 1.5rem; 
+}
+.beginner-section-container h1{
+ font-size: 2.5rem ;
+}
+.beginner-section{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px; 
+}
+.beginner-section div img{
+    height: 200px ; 
+    width: 100% ; 
+    border-radius: 5px; 
+}
+.beginner-section div p{
+    line-height: 2rem ;
+}
+
+.intermediate-section-container {
+    padding: 1rem 1.5rem; 
+  }
+  .intermediate-section-container h1{
+   font-size: 2.5rem ;
+  }
+  .intermediate-section{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-gap: 20px; 
+  }
+  .intermediate-section div img{
+      height: 200px ; 
+      width: 100% ; 
+      border-radius: 5px; 
+  }
+  .intermediate-section div p{
+      line-height: 2rem ;
+  }
+
+
+  .advanced-section-container {
+    padding: 1rem 1.5rem; 
+  }
+  .advanced-section-container h1{
+   font-size: 2.5rem ;
+  }
+  .advanced-section{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-gap: 20px; 
+  }
+  .advanced-section div img{
+      height: 200px ; 
+      width: 100% ; 
+      border-radius: 5px; 
+  }
+  .advanced-section div p{
+      line-height: 2rem ;
+  }
+
+  @media(max-width : 760px){
+      .main-head{
+          display: block ;
+          position: static;
+          font-size: 3rem ;
+          margin-top: 100px; 
+      }
+      .beginner-section{
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-gap: 20px; 
+    }
+     .intermediate-section{
+        display: grid; 
+        grid-template-columns: 1fr  ;
+        grid-gap: 20px; 
+    }
+    .advanced-section{
+        display: grid; 
+        grid-template-columns: 1fr ;
+        grid-gap: 20px; 
+    }
+  }
