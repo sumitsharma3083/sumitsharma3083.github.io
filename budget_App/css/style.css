@@ -1,0 +1,174 @@
+body
+{
+    background-color:#EAF0F1;
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+.top-row
+{
+    min-height: 200px;
+   
+}
+.budget-box
+{
+    width: 100%;
+    border: 1.5px solid #26ae60;
+    border-radius: 5px; 
+    height: 200px;
+    padding: 15px;
+}
+
+
+.budget-input
+{
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+.calculate_btn
+{
+    border: 1px solid #2475B0;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2475B0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.calculate_btn:hover
+{
+    color: #fff;
+    background-color:#2475B0;
+}
+.info-box
+{
+    text-align: center;
+}
+.fa-money-bill
+{
+    font-size: 40px;
+    color: #26ae60;
+}
+.fa-credit-card
+{
+    font-size: 40px;
+    color: #0A79DF;
+}
+.fa-dollar-sign
+{
+    font-size: 40px;
+    color: #E71C23
+}
+
+.budget-price-tag
+{
+  margin-top: 10px;
+  color: #26ae60;
+  font-size: 40px;
+}
+.expense-price-tag
+{
+    margin-top: 10px;
+    color: #0A79DF;
+    font-size: 40px;
+}
+.balance-price-tag
+{
+    margin-top: 10px;
+    color: #E71C23;
+    font-size: 40px;
+}
+
+
+.price-tag
+{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font: inherit;
+}
+.bottom-row
+{
+    margin-top: 10px;
+}
+.expense-box
+{
+    width: 100%;
+    border: 1.5px solid #E71C23;
+    border-radius: 5px; 
+    height: 200px;
+    padding: 10px;
+}
+
+.expense-input
+{
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #aaa;
+}
+.expense_btn
+{
+    border: 1px solid #26ae60;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #26ae60;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.expense_btn:hover
+{
+    color: #fff;
+    background-color: #26ae60;
+}
+
+.expenses-list
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+.edit-btn
+{
+  background: none;
+  cursor: pointer;
+  border: none;
+  margin-left: 100px;
+  color: #fff;
+}
+.delete-btn
+{
+    background: none; 
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+.expense-header
+{
+    font-size: 15px;
+}
+
+
+.warning_msg_expense,.warning_msg_budget
+{
+    color: red;
+    font-size: 10px;
+     opacity: 0
+}
+
+#show
+{
+    opacity: 1
+}
+
+#red
+{
+    border: 1px solid red;
+}
+.list-group-item
+{
+    margin-top: 5px;
+}
