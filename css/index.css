@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+
+
 *{
     margin: 0 ;
     padding: 0 ;
@@ -7,6 +11,7 @@ body{
     padding: 0;
     height: 100vh;
     width: 100vw;
+    font-family: 'Amarante', cursive;
 }
 .main-container{
     
@@ -15,25 +20,32 @@ body{
     background: rgb(210,27,176);
     background: linear-gradient(90deg, rgba(210,27,176,1) 0%, rgba(45,2,130,1) 100%);
 }
-.main-container-inner{
-    padding: 1.5rem;
-}
 .nav-bar{
-    display: inline-block;
-    list-style-type: none;
-    position: relative ; 
-    left: 50%;
-    background: rgb(45,2,130);
+     display: inline-block;
+     list-style-type: none;
+     position: relative ; 
+     left: 40%;
+     background: rgb(45,2,130);
      background: linear-gradient(90deg, rgba(45,2,130,1) 26%, rgba(210,27,176,1) 100%); 
      padding: 1rem 2.5rem ;
      border-radius: 20px;
      -webkit-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
 -moz-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
 box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+transition-property: all;
+transition-duration: 0;
+transition-timing-function: linear;
 }
-.my-logo{
-    height: 200px ;
-    width: 200px;
+.nav-bar:hover{
+    -webkit-box-shadow: 4px 17px 55px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 17px 55px 12px rgba(0,0,0,0.75);
+    box-shadow: 4px 17px 55px 12px rgba(0,0,0,0.75);
+}
+.final-logo{
+    height: 100px ;
+    width: 100px;
+    position : relative; 
+    left : 20% ;
 }
 .nav-items{
     display: inline-block;
@@ -51,33 +63,20 @@ box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
 }
 .home-main-section{
    padding: 2rem;
-   margin-top: 5rem;
+   margin-top: 4rem;
 }
-.graphic-designer{
-    width: 350px;
-    height:350px;
-}
-.home-main-left{
-    text-align: center;
-}
-.home-main-left img{
-    position: relative;
-    left: 10%;
-}
-.home-main-right{
-    
-    display: grid;
+.home-main-inner{
+    display : flex ;
     justify-content: center;
     align-items: center;
 }
-.home-main-right div {
+.home-main-inner div{
     text-align: center;
+    z-index: 2;
 }
 .i-write-code{
     color: #fff;
-     text-transform: uppercase;
-    
-     text-align: center;
+     text-transform: uppercase ;
      font-weight: 400;
      font-size: 1.5rem;
 }
@@ -86,7 +85,6 @@ box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
     text-transform: uppercase;
     text-align: center;
      font-size: 3.5rem;
-     
 }
 .improving-text{
     margin-bottom: 2.5rem;
@@ -123,7 +121,13 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
     opacity: .5;
     animation: scaleTransform1 5s linear  infinite backwards ;
 }
- 
+ .image-4-xlarge{
+     position: absolute;
+     top : 20%; 
+     left: 10% ;
+     opacity: .3;
+     animation: scaleTransform1 5s  1s linear  infinite backwards ;
+ }
 .image-2-small{
     position: absolute; 
     top: 40% ;
@@ -155,9 +159,14 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
     }
     
 }
+.bg-graphic{
+   height: 100%;
+   width: 100%;
+}
 
-
-
+.social-media-container{
+    margin-top: 3rem;
+}
 @media(max-width : 770px){
     .nav-bar{
         position: static;
