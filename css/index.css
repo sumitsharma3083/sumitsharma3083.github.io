@@ -1,4 +1,213 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
 body{
     margin: 0 ;
     padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.main-container{
+    
+    width : 100vw ;
+    height: 100vh;
+    background: rgb(210,27,176);
+    background: linear-gradient(90deg, rgba(210,27,176,1) 0%, rgba(45,2,130,1) 100%);
+}
+.main-container-inner{
+    padding: 1.5rem;
+}
+.nav-bar{
+    display: inline-block;
+    list-style-type: none;
+    position: relative ; 
+    left: 50%;
+    background: rgb(45,2,130);
+     background: linear-gradient(90deg, rgba(45,2,130,1) 26%, rgba(210,27,176,1) 100%); 
+     padding: 1rem 2.5rem ;
+     border-radius: 20px;
+     -webkit-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+}
+.my-logo{
+    height: 200px ;
+    width: 200px;
+}
+.nav-items{
+    display: inline-block;
+    margin-left: 3.5rem;
+    
+    text-transform: capitalize;
+}
+.nav-links{
+    color : #fff ;
+}
+.nav-links:hover{
+    color : #fff ;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.home-main-section{
+   padding: 2rem;
+   margin-top: 5rem;
+}
+.graphic-designer{
+    width: 350px;
+    height:350px;
+}
+.home-main-left{
+    text-align: center;
+}
+.home-main-left img{
+    position: relative;
+    left: 10%;
+}
+.home-main-right{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-main-right div {
+    text-align: center;
+}
+.i-write-code{
+    color: #fff;
+     text-transform: uppercase;
+    
+     text-align: center;
+     font-weight: 400;
+     font-size: 1.5rem;
+}
+.my-name{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+     font-size: 3.5rem;
+     
+}
+.improving-text{
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+    color: #fff;
+    position: relative ;
+    left: 25%;
+    font-size: 1rem;
+}
+.about-me-link{
+   
+    text-transform: uppercase ;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: rgb(45,2,130);
+    background: linear-gradient(90deg, rgba(45,2,130,1) 11%, rgba(210,27,176,1) 100%);
+    -webkit-box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+
+}
+.about-me-link:hover{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.image-1-large{
+    position: absolute; 
+    top: 20% ;
+    right: 10%;
+    height: 100px;
+    width: 100px;
+    opacity: .5;
+    animation: scaleTransform1 5s linear  infinite backwards ;
+}
+ 
+.image-2-small{
+    position: absolute; 
+    top: 40% ;
+    right: 20%;
+    height: 80px;
+    width: 80px;
+    opacity: .3;
+    animation: scaleTransform1 5s  1s linear  infinite backwards ;
+}
+.image-3-xsmall{
+    position: absolute; 
+    top: 80% ;
+    right: 10%;
+    height: 50px;
+    width: 50px;
+    opacity: .5;
+    animation: scaleTransform1 5s 2s linear  infinite backwards ;
+}
+
+@keyframes scaleTransform1{
+    0%{
+      transform: scale(1,1);
+    }
+    50%{
+     transform: scale(1.4,1.4);
+    }
+    100%{
+       transform: scale(1,1);
+    }
+    
+}
+
+
+
+@media(max-width : 770px){
+    .nav-bar{
+        position: static;
+        width: 100%;
+        padding: 0;
+    }
+    .nav-items{
+        margin-left: .8rem;
+    }
+    .graphic-designer{
+        width: 200px;
+        height:200px;
+    }
+    .home-main-section{
+        padding: 2rem;
+       margin: 0;
+     }
+     .i-write-code{
+         color: #fff;
+         text-transform: uppercase;
+        
+         text-align: center;
+         font-weight: 400;
+         font-size: 1rem;
+    }
+    .my-name{
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+         font-size: 2rem;
+         
+    }
+    .improving-text{
+        margin-bottom: 1.5rem;
+        text-transform: capitalize;
+        color: #fff;
+        position: relative ;
+        left: 15%;
+        font-size: 1rem;
+    }
+    .home-main-right{
+        margin-top: 1.5rem;
+    }
+    .image-1-large{
+        top : 20%; 
+        left: 10%;
+    }
+    .main-container{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
