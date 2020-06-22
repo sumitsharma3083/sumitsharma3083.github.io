@@ -9,32 +9,41 @@
 body{
     margin: 0 ;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height : 100vh ;
+    width: 100vw ;
     font-family: 'Amarante', cursive;
 }
 .main-container{
-    
-    width : 100vw ;
-    height: 100vh;
+    width : 100vw !important ;
+    height: 100vh !important;
     background: rgb(210,27,176);
     background: linear-gradient(90deg, rgba(210,27,176,1) 0%, rgba(45,2,130,1) 100%);
+    box-sizing: border-box;
+}
+.main-header{
+    width: 100%;
+}
+.main-header-inner{
+   
+    width: 80%;
+    margin: auto;
 }
 .nav-bar{
      display: inline-block;
      list-style-type: none;
      position: relative ; 
-     left: 40%;
+      left : 30%;
      background: rgb(45,2,130);
      background: linear-gradient(90deg, rgba(45,2,130,1) 26%, rgba(210,27,176,1) 100%); 
      padding: 1rem 2.5rem ;
      border-radius: 20px;
      -webkit-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
-transition-property: all;
-transition-duration: 0;
-transition-timing-function: linear;
+     -moz-box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+     box-shadow: 3px 27px 40px -9px rgba(0,0,0,0.75);
+     transition-property: all;
+     transition-duration: 0;
+     transition-timing-function: linear;
+    
 }
 .nav-bar:hover{
     -webkit-box-shadow: 4px 17px 55px 12px rgba(0,0,0,0.75);
@@ -44,8 +53,9 @@ transition-timing-function: linear;
 .final-logo{
     height: 100px ;
     width: 100px;
-    position : relative; 
-    left : 20% ;
+    position: relative ; 
+    top: 0%;
+   
 }
 .nav-items{
     display: inline-block;
@@ -63,7 +73,7 @@ transition-timing-function: linear;
 }
 .home-main-section{
    padding: 2rem;
-   margin-top: 4rem;
+  
 }
 .home-main-inner{
     display : flex ;
@@ -164,59 +174,81 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
    width: 100%;
 }
 
-.social-media-container{
-    margin-top: 3rem;
+
+@media(max-width : 950px){
+    .main-header{
+        background: rgb(45,2,130);
+        background: linear-gradient(90deg, rgba(45,2,130,1) 57%, rgba(210,27,176,1) 100%);
+        -webkit-box-shadow: 2px 17px 35px -3px rgba(0,0,0,0.52);
+        -moz-box-shadow: 2px 17px 35px -3px rgba(0,0,0,0.52);
+        box-shadow: 2px 17px 35px -3px rgba(0,0,0,0.52);
+    }
+   .main-header-inner{
+       width: 70% ;
+       margin: auto;
+   }
+   .final-logo{
+       position: static;
+   }
+   .nav-bar{
+       position: static;
+       display: none;
+   }
+   .home-main-section{
+   
+    margin: 0;
+    padding: 3rem 0;
+   
+ }
+ .i-write-code{
+     color: #fff;
+     text-transform: lowercase ;
+     font-weight: 200;
+     font-size: 1rem;
+     padding: 0;
+     margin: 0;
 }
-@media(max-width : 770px){
-    .nav-bar{
-        position: static;
-        width: 100%;
-        padding: 0;
-    }
-    .nav-items{
-        margin-left: .8rem;
-    }
-    .graphic-designer{
-        width: 200px;
-        height:200px;
-    }
-    .home-main-section{
-        padding: 2rem;
-       margin: 0;
-     }
-     .i-write-code{
-         color: #fff;
-         text-transform: uppercase;
-        
-         text-align: center;
-         font-weight: 400;
-         font-size: 1rem;
-    }
-    .my-name{
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-         font-size: 2rem;
-         
-    }
-    .improving-text{
-        margin-bottom: 1.5rem;
-        text-transform: capitalize;
-        color: #fff;
-        position: relative ;
-        left: 15%;
-        font-size: 1rem;
-    }
-    .home-main-right{
-        margin-top: 1.5rem;
-    }
-    .image-1-large{
-        top : 20%; 
-        left: 10%;
-    }
-    .main-container{
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
-    }
+.my-name{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+     font-size: 2.5rem;
+     padding: 0;
+     margin: 0;
+}
+.improving-text{
+   
+    text-transform: capitalize;
+    color: #fff;
+    position: relative ;
+    left: 15%;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+.about-me-link{
+   
+    text-transform: uppercase ;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: rgb(45,2,130);
+    background: linear-gradient(90deg, rgba(45,2,130,1) 11%, rgba(210,27,176,1) 100%);
+    -webkit-box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
+
+}
+.home-main-inner{
+    display :block ;
+}
+.home-main-inner > div{
+    text-align: center;
+    z-index: 2;
+    box-sizing: border-box;
+}
+ .content-container{
+     margin-top: 3.5rem;
+ }
 }
