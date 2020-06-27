@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amarante', cursive;
+}
+.section01{
+    width: 100%;
+    background: rgb(210,27,176);
+    background: linear-gradient(86deg, rgba(210,27,176,1) 22%, rgba(45,2,130,1) 100%);
+    height: 100vh ;
+}
+.content-container{
+    text-align: center;
+  position: relative;
+  top: 30%;
+}
+.my-name{
+    text-transform: capitalize;
+    color: #fff;
+}
+.f-stack{
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 3rem;
+  
+}
+
+.section02{
+    background : url(../images/about-me-bg.png) center center no-repeat;
+    background-size: cover;
+   
+}
+.about-me-wrapper{
+    position: relative;
+    padding: 5rem 5rem;
+}
+.story-behind-wrapper{
+    margin-top: 5rem;
+}
+.how-started-text{
+    text-align: center;
+    text-transform: capitalize;
+    color: #888;
+    display: block;
+}
+.story-behind-text{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.introduced-web-wrapper{
+    margin-top: 7rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.about-me-text{
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+ color:  blue;
+}
+.about-me-container{
+    margin-left: 3rem;
+}
+.about-me-container > p{
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+.twocircle-large{
+    position: absolute;
+    top: 0%;
+    left : 0% ;
+    opacity: .7;
+    animation: scaleTransform1 3s 0s linear  infinite backwards ;
+}
+.twocircle-small{
+    position: absolute;
+    bottom: 0%;
+    right : 0% ;
+    opacity: .7;
+    animation: scaleTransform1 5s 2s linear  infinite backwards ;
+}
+
+@keyframes scaleTransform1{
+    0%{
+      transform: scale(1,1);
+    }
+    50%{
+     transform: scale(1.4,1.4);
+    }
+    100%{
+       transform: scale(1,1);
+    }
+    
+}

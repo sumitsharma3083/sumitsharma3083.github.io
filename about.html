@@ -5,14 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
+
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
    <!-- The custom css icons file -->
     <link rel="stylesheet" href="css/myicons.css">
    
+
+
    <!-- The Custom css file -->
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="./css/navbar.css">
+   <link rel="stylesheet" href="css/about.css">
 </head>
-<body class="about">
-       <div id="about-me">
+<body>
+   <div class="main-wrapper">
+           
+          <section class="section01">
+    <!-- navbar and responsive navbar start -->
+    <header class="main-header">
+    <div class="main-header-inner">      
+            <a href="#" alt="my-logo">
+                <img src="./images/final-logo.png" alt="my-logo" class="final-logo">
+             </a>
+               <ul class="nav-bar">
+                   <li class="nav-items"><a href="#" class="nav-links">home</a></li>
+                   <li class="nav-items"><a href="#" class="nav-links">about</a></li>
+                   <li class="nav-items"><a href="#" class="nav-links">work</a></li>
+                   <li class="nav-items"><a href="#" class="nav-links">reach me</a></li>
+               </ul>  
+               <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+               </button> 
+              
+    </div>
+    </header> 
+    <div class="responsive-navbar-toggle">
+<ul>
+  <li><a href="#">home</a></li>
+  <li><a href="#">about</a></li>
+  <li><a href="#">work</a></li>
+  <li><a href="#">reach me</a></li>
+</ul>
+    </div> 
+
+    <div class="content-container"> 
+      <span class="my-name">
+          sumit sharma
+      </span>
+      <h1 class="f-stack">full stack web developer</h1>
+    </div>
+   <!-- navbar and responsive navbar ends--> 
+          </section>
+            
+          
+          <section class="section02">
+           
+                <div class="container about-me-wrapper">
+                    <div class="images">
+                        <img src="./images/two-circles.png" alt="twocircle-01" class="twocircle-large">
+                        <img src="./images/two-circles.png" alt="twocircle-02" class="twocircle-small">
+                  </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                            <div class="story-behind-wrapper">
+                                <span class="how-started-text">
+                                    how it started ? 
+                                </span>
+                               <p class="story-behind-text">
+                                   the story behind and the process ?
+                               </p>
+                            </div>
+                             <div class="introduced-web-wrapper">
+                                 <p class="introduce-web-text">
+                                    how i introduces to web development ? 
+                                 </p>
+                                
+                             </div>
+                        </div>
+                        <div class="col-md-8">
+                             <span class="about-me-text">about me</span>
+                              <div class="about-me-container">
+                                <p>hope you all doing good</p>
+                                <p>
+                                    so the journey started during the days when i was in my collage  and  once i was
+                                    searching for the particular topic about ds(data structure ) i was scrolling the youtube and searching alot on google . 
+                                </p>
+                                 <p>
+                                    before that i have not write single line of code in any programming languages. and i havenot get a chance to know about this programming world before
+                                 </p>
+                                 <p>finally i found what i was looking for and started writing the code . and at the same time i started to explore more to dive deep into this programming world.</p>
+                                 <p>
+                                    then i introduced with the web development . i took some online cources to start from the frontend .then i jumped to <a href="https://javascript.info/intro" target="_blank">js(javascript)</a> to enhance my web powers. and then i understood what is going under the hood. 
+                                 </p> 
+                                 <p>i started learning <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">node.js (backend )</a> to add to my <a href="#">skill pallette</a> so that i could provide full stack js services. </p>
+                                 <p>
+                                    ...journey is continuesly going on
+                                 </p>
+                                 <p>thank you. !</p>
+                              </div>
+                         
+                        </div>
+                      </div>
+                      <hr style="margin-top: 1rem; ">
+                </div>
+          </section>
+   </div>
+
+
+
+       <!-- <div id="about-me">
           <h1 id="about-me-title"><span>About</span> Me</h1>
            <p id="about-me-description">Let me Tell you something about me..</p>
            <div id="image-bio">
@@ -74,15 +176,33 @@
            <li class="menu-list-items"><a href="work.html" class="menu-links">PROJECTS</a></li>
            <li class="menu-list-items"><a href="reach.html" class="menu-links">REACH ME</a></li>
        </ul>
-     </div>
+     </div> -->
    <!-- The icons js file -->
     <script src="javascript/myicons.js">
     </script>
 
-   <!-- The custom js file -->
-   <script src="javascript/objects.js">
-   </script>
-    <script src="javascript/main.js">
-    </script>
+
+     <!-- bootsrap js scripts -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <script src="./javascript/myicons.js"></script>
+     <script src="./javascript/navbar.js">
+
+     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
