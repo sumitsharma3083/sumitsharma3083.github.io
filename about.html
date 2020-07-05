@@ -25,14 +25,14 @@
     <!-- navbar and responsive navbar start -->
     <header class="main-header">
     <div class="main-header-inner">      
-            <a href="#" alt="my-logo">
+            <a href="index.html" alt="my-logo">
                 <img src="./images/final-logo.png" alt="my-logo" class="final-logo">
              </a>
                <ul class="nav-bar">
-                   <li class="nav-items"><a href="#" class="nav-links">home</a></li>
-                   <li class="nav-items"><a href="#" class="nav-links">about</a></li>
-                   <li class="nav-items"><a href="#" class="nav-links">work</a></li>
-                   <li class="nav-items"><a href="#" class="nav-links">reach me</a></li>
+                   <li class="nav-items"><a href="index.html" class="nav-links">home</a></li>
+                   <li class="nav-items"><a href="about.html" class="nav-links">about</a></li>
+                   <li class="nav-items"><a href="about.html" class="nav-links">work</a></li>
+                   <li class="nav-items"><a href="reach.html" class="nav-links">reach me</a></li>
                </ul>  
                <button class="menu-toggle">
                 <i class="fas fa-bars"></i>
@@ -42,32 +42,40 @@
     </header> 
     <div class="responsive-navbar-toggle">
 <ul>
-  <li><a href="#">home</a></li>
-  <li><a href="#">about</a></li>
-  <li><a href="#">work</a></li>
-  <li><a href="#">reach me</a></li>
+  <li><a href="index.html">home</a></li>
+  <li><a href="about.html">about</a></li>
+  <li><a href="about.html">work</a></li>
+  <li><a href="reach.html">reach me</a></li>
 </ul>
     </div> 
-
+<!-- navbar and responsive navbar ends--> 
     <div class="content-container"> 
-      <span class="my-name">
-          sumit sharma
-      </span>
-      <h1 class="f-stack">full stack web developer</h1>
+        <div class="container row">
+            <div>
+                <img src="./images/myimage.png" alt="" class="self-img">
+            </div>
+            <div class="content-container-right" >
+                <div>
+                    <span class="my-name">
+                        sumit sharma
+                    </span>
+                    <h1 class="f-stack">full stack web developer</h1>
+                </div>
+               
+            </div>
+        </div>
     </div>
-   <!-- navbar and responsive navbar ends--> 
           </section>
             
           
           <section class="section02">
-           
                 <div class="container about-me-wrapper">
-                    <div class="images">
+                    <!-- <div class="images"> -->
                         <img src="./images/two-circles.png" alt="twocircle-01" class="twocircle-large">
                         <img src="./images/two-circles.png" alt="twocircle-02" class="twocircle-small">
-                  </div>
-                      <div class="row">
-                        <div class="col-md-4">
+                  <!-- </div> -->
+                      <div class="row  about-me-container">
+                        <div class="col-md-4 col-sm-6">
                             <div class="story-behind-wrapper">
                                 <span class="how-started-text">
                                     how it started ? 
@@ -83,22 +91,22 @@
                                 
                              </div>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-8 col-sm-6">
                              <span class="about-me-text">about me</span>
                               <div class="about-me-container">
                                 <p>hope you all doing good</p>
                                 <p>
                                     so the journey started during the days when i was in my collage  and  once i was
-                                    searching for the particular topic about ds(data structure ) i was scrolling the youtube and searching alot on google . 
+                                    searching for the particular topic about ds(data structure ) i scrolled alot in youtube and searched on google . 
                                 </p>
                                  <p>
-                                    before that i have not write single line of code in any programming languages. and i havenot get a chance to know about this programming world before
+                                    before that i have not write single line of code in any programming languages. and i had not got a chance to know about this programming world before
                                  </p>
-                                 <p>finally i found what i was looking for and started writing the code . and at the same time i started to explore more to dive deep into this programming world.</p>
+                                 <p> then finally i found what i was looking for and i started writing the code . and during that time i started to explore more to dive deep into this programming world.</p>
                                  <p>
-                                    then i introduced with the web development . i took some online cources to start from the frontend .then i jumped to <a href="https://javascript.info/intro" target="_blank">js(javascript)</a> to enhance my web powers. and then i understood what is going under the hood. 
+                                    then i introduced with the web development . i took some online cources to start from the very beginning .then i jumped to <a href="https://javascript.info/intro" target="_blank">js(javascript)</a> to enhance my web powers. and that was the time when i understood what is going under the hood. 
                                  </p> 
-                                 <p>i started learning <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">node.js (backend )</a> to add to my <a href="#">skill pallette</a> so that i could provide full stack js services. </p>
+                                 <p>i spent lot of time in frontend dev then i started learning <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">node.js (backend dev)</a> to add to my <a href="#">skill pallette</a> so i could provide full stack js services. </p>
                                  <p>
                                     ...journey is continuesly going on
                                  </p>
@@ -109,6 +117,55 @@
                       </div>
                       <hr style="margin-top: 1rem; ">
                 </div>
+          </section>
+
+
+          <section class="section03">
+              <div class="container">
+                <div class="work-container">
+                   <div class="work-container-inner">
+                       <h1 class="my-work-text">my work</h1>
+                        <span class="my-work-description">...design and maintain by me</span>
+                   </div>
+                </div>
+              </div>
+              <div class="work-container-showcase">
+                <div class="work-container-showcase-inner">
+
+                         <div class="card" >
+                        <img src="./images/html and css.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">html and css</h5>
+                       
+                          <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                        </div>
+                      </div>
+                  
+               
+                    <div class="card " >
+                        <img src="./images/javascript.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">vanilla js</h5>
+                        
+                          <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                        </div>
+                      </div>
+                   
+    
+                        <div class="card">
+                          <img src="./images/node-js.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">node js</h5>
+                         
+                            <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                          </div>
+                        </div>
+                  
+                
+                  
+                </div>
+          </div>
+                  
           </section>
    </div>
 
