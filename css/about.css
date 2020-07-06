@@ -42,11 +42,6 @@ body{
   
 }
 
-.section02{
-    background : url(../images/about-me-bg.png) center center  no-repeat;
-    background-size: cover;
-   
-}
 .about-me-wrapper{
     position: relative;
     padding: 5rem 5rem;
@@ -186,6 +181,98 @@ body{
 }
 
 
+.section04{
+    padding-top: 4rem;
+    width: 100%;
+   
+}
+.reach-me-container{
+    width: 70%;
+    margin: auto;
+}
+.contact-me-text-wrapper{
+       margin-bottom: 2.5rem;
+}  
+.contact-me-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.reach-me-info-list{
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 2rem;
+    list-style-type: none ; 
+}
+.reach-me-info-items{
+    margin-bottom: 2rem;
+}
+.info-heading{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+} 
+
+
+
+
+.contact-me-form-wrapper{
+    position: relative;
+    padding: 3rem 0;
+    min-height: 700px;
+    width : 100% ;
+    background : url(../images/reach-bg-1.png) center center no-repeat;
+    background-size:cover;
+}
+.hashtag-reach-span
+{
+    text-transform: capitalize;
+    color : blue;
+}
+.contact-me-wrapper-text{
+    position: absolute;
+    top : 20% ;
+    left: 5% ;
+    width: 500px;
+}
+.fill-form-text{
+    text-transform: uppercase ; 
+    font-size: 2.5rem;
+}
+
+.reach-me-form-container{
+    position: relative;
+    left : 50% ;
+    top : 100px; 
+  
+    display : inline-block;
+}
+.reach-me-form{
+  
+}
+.reach-me-form > input,textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.reach-me-form > input{
+    padding: 1rem;
+}
+.reach-form-submit{
+    display: inline-block;
+    background: rgb(45,2,130);
+    background: linear-gradient(114deg, rgba(45,2,130,1) 100%, rgba(255,255,255,1) 100%);
+    border : none ; 
+    color : #fff ;
+}
+
+
+
+
+
+
+
 /* start media queries */
 @media(max-width : 950px){
     *{
@@ -298,5 +385,68 @@ body{
     display: grid;
     grid-template-columns: 1fr ;
     grid-gap: 2.5rem;
+} 
+
+.contact-me-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
 }
+
+.contact-me-form-wrapper{
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 2rem;
+    padding: 3rem 0;
+    min-height: 700px;
+    width : 100% ;
+    background : url(../images/reach-bg-1.png) center center no-repeat;
+    background-size: auto;
+}
+
+.hashtag-reach-span
+{
+    text-transform: capitalize;
+    color : blue;
+}
+.contact-me-wrapper-text{
+    position: static;
+    width : 80%;
+    margin : auto;
+   
+}
+.fill-form-text{
+    text-transform: uppercase ; 
+    font-size: 2rem;
+}
+
+.reach-me-form-container{
+    width : 70% ;
+    margin : auto ;
+    position: static;  
+    display : inline-block;
+}
+.reach-me-form{
+  
+}
+.reach-me-form > input,textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.reach-me-form > input{
+    padding: 1rem;
+}
+.reach-form-submit{
+    display: inline-block;
+    background: rgb(45,2,130);
+    background: linear-gradient(114deg, rgba(45,2,130,1) 100%, rgba(255,255,255,1) 100%);
+    border : none ; 
+    color : #fff ;
+}
+
+
+
 }

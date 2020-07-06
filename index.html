@@ -11,12 +11,17 @@
         <!-- font family -->
          <link rel="stylesheet" href="./css/myicons.css">
         <!-- The Custom css file -->
+        <link rel="stylesheet" href="./css/about.css">
          <link rel="stylesheet" href="./css/navbar.css">
          <link rel="stylesheet" href="./css/index.css">
+        
+       
 </head>
 <body>  
-   
-          <div class="main-container"> 
+           
+
+            <!-- home content -->
+               <div class="main-container" id="home"> 
               <div class="images">
                 <!-- <img src="./images/circle-image.png" alt="image-4" class="image-4-xlarge"> -->
                <img src="./images/circle-image.png" alt="image-1" class="image-1-large">
@@ -28,14 +33,14 @@
                <!-- navbar and responsive navbar start -->
                <header class="main-header">
                     <div class="main-header-inner">      
-                            <a href="#" alt="my-logo">
+                            <a href="#home" alt="my-logo">
                                 <img src="./images/final-logo.png" alt="my-logo" class="final-logo">
                              </a>
                                <ul class="nav-bar">
-                                   <li class="nav-items"><a href="index.html" class="nav-links">home</a></li>
-                                   <li class="nav-items"><a href="about.html" class="nav-links">about</a></li>
-                                   <li class="nav-items"><a href="work.html" class="nav-links">work</a></li>
-                                   <li class="nav-items"><a href="reach.html" class="nav-links">reach me</a></li>
+                                   <li class="nav-items"><a href="#home" class="nav-links">home</a></li>
+                                   <li class="nav-items"><a href="#about" class="nav-links">about</a></li>
+                                   <li class="nav-items"><a href="#work" class="nav-links">work</a></li>
+                                   <li class="nav-items"><a href="#reach" class="nav-links">reach me</a></li>
                                </ul>  
                                <button class="menu-toggle">
                                 <i class="fas fa-bars"></i>
@@ -45,17 +50,15 @@
                </header> 
                <div class="responsive-navbar-toggle">
                 <ul>
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="about.html">about</a></li>
-                  <li><a href="about.html">work</a></li>
-                  <li><a href="reach.html">reach me</a></li>
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="#work">work</a></li>
+                  <li><a href="#reach">reach me</a></li>
                 </ul>
                </div> 
 
                  <!-- navbar and responsive navbar ends-->
-
-
-                <section class="home-main-section container">
+                   <section class="home-main-section container">
                 
                        <div class="home-main-inner row">
                            <div class="col-md-6 col-sm-12">
@@ -71,11 +74,199 @@
                                      </div> 
                              </div>     
                       
-                </section>
+                   </section>
+               </div>
+
+
+
+
+                 <!-- about me content   --- section02 -->
+                    <section class="section02" id="about">
+                 <div class="container about-me-wrapper">
+        <!-- <div class="images"> 
+            <img src="./images/two-circles.png" alt="twocircle-01" class="twocircle-large">
+            <img src="./images/two-circles.png" alt="twocircle-02" class="twocircle-small">
+         </div>  -->
+          <div class="row  about-me-container">
+            <div class="col-md-4 col-sm-6">
+                <div class="story-behind-wrapper">
+                    <span class="how-started-text">
+                        how it started ? 
+                    </span>
+                   <p class="story-behind-text">
+                       the story behind and the process ?
+                   </p>
+                </div>
+                 <div class="introduced-web-wrapper">
+                     <p class="introduce-web-text">
+                        how i introduces to web development ? 
+                     </p>
+                    
+                 </div>
+            </div>
+            <div class="col-md-8 col-sm-6">
+                 <span class="about-me-text">about me</span>
+                  <div class="about-me-container">
+                    <p>hope you all doing good</p>
+                    <p>
+                        so the journey started during the days when i was in my collage  and  once i was
+                        searching for the particular topic about ds(data structure ) i scrolled alot in youtube and searched on google . 
+                    </p>
+                     <p>
+                        before that i have not write single line of code in any programming languages. and i had not got a chance to know about this programming world before
+                     </p>
+                     <p> then finally i found what i was looking for and i started writing the code . and during that time i started to explore more to dive deep into this programming world.</p>
+                     <p>
+                        then i introduced with the web development . i took some online cources to start from the very beginning .then i jumped to <a href="https://javascript.info/intro" target="_blank">js(javascript)</a> to enhance my web powers. and that was the time when i understood what is going under the hood. 
+                     </p> 
+                     <p>i spent lot of time in frontend dev then i started learning <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">node.js (backend dev)</a> to add to my <a href="#">skill pallette</a> so i could provide full stack js services. </p>
+                     <p>
+                        ...journey is continuesly going on
+                     </p>
+                     <p>thank you. !</p>
+                  </div>
+             
+            </div>
           </div>
+          <hr style="margin-top: 1rem; ">
+    </div>
+                     </section>
 
-    
 
+
+
+                   <!-- special section -->
+                     <section class="section-special">
+                            <div class="section-special-upper">
+                              <span class="hash-i-write">#iwritecode</span>
+                              <span class="my-name-special">sumit sharma</span>
+                              <h5 class="full-stack-special">full stack web developer</h5>
+                            </div>
+                            <div class="section-special-lower">
+                              <div class="section-special-lower-inner">
+                                <div>
+                                  <img src="./images/myimage.png" alt="" class="sumit-image">
+                                </div>
+                                <div>
+                                  <h1>hello world</h1>
+                                </div>
+                              </div>
+                            </div>
+                     </section>
+
+   
+
+                     <!-- section 03 -->
+                     <section class="section03" id="work">
+                      <div class="container">
+                        <div class="work-container">
+                           <div class="work-container-inner">
+                               <h1 class="my-work-text">my work</h1>
+                                <span class="my-work-description">...design and maintain by me</span>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="work-container-showcase">
+                        <div class="work-container-showcase-inner">
+        
+                                 <div class="card" >
+                                <img src="./images/html and css.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">html and css</h5>
+                               
+                                  <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                                </div>
+                              </div>
+                          
+                       
+                            <div class="card " >
+                                <img src="./images/javascript.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">vanilla js</h5>
+                                
+                                  <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                                </div>
+                              </div>
+                           
+            
+                                <div class="card">
+                                  <img src="./images/node-js.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">node js</h5>
+                                 
+                                    <a href="#" class="btn btn-primary go-to-btn">Go to link</a>
+                                  </div>
+                                </div>
+                          
+                        
+                          
+                        </div>
+                  </div>
+                          
+                     </section>
+
+
+
+                     <!-- section 04 -->
+                     <section class="section04" id="reach">
+                      <div class="reach-me-container">
+                         <div class="contact-me-text-wrapper">
+                            <h1 class="contact-me-text">
+                              contact me
+                            </h1>
+                         </div>
+                         <div class="reach-me-info-wrapper">
+                           <ul class="reach-me-info-list">
+                             <li class="reach-me-info-items">
+                               <div>
+                                 <h5 class="info-heading">email</h5>
+                                 <p class="info-description">prince.sumit95@gmail.com</p>
+                               </div>
+                             </li>
+                             <li class="reach-me-info-items">
+                               <div>
+                                 <h5 class="info-heading">address</h5>
+                                 <p class="info-description">chandigarh , india</p>
+                               </div>
+                             </li>
+                             <li class="reach-me-info-items">
+                               <div>
+                                 <h5 class="info-heading">phone</h5>
+                                 <p class="info-description">(+91)9896773083</p>
+                               </div>
+                             </li>
+                             <li class="reach-me-info-items">
+                               <h5 class="info-heading">skype</h5>
+                               <p class="info-description">sumitsharma1995</p>
+                             </li>
+                           </ul>
+                         </div>
+                      </div>
+       
+                      <div class="contact-me-form-wrapper">
+                             <div class="contact-me-wrapper-text">
+                               <span class="hashtag-reach-span">#reachmeviaform</span>
+                               <h1 class="fill-form-text">fill the form</h1>
+                               <p class="fill-form-description">if you have any kind of query which you want to discuss just feel free to submit a form i will reach you soon</p>
+                             </div>
+                             <div class="reach-me-form-container">
+                                <form action="#" class="reach-me-form">
+                                  <input type="text" placeholder="your name">
+                                  <input type="email" placeholder="your email">
+                                  <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                                  <input type="submit" class="reach-form-submit">
+                                </form>
+                             </div>
+                      </div>
+                     </section>
+        
+
+
+
+
+
+
+                     
          <!-- bootsrap js scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
