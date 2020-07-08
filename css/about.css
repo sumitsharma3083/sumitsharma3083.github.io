@@ -163,6 +163,12 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2.5rem;
 }
+
+.card:hover{
+  
+  cursor: pointer;
+  transform: translateY(-10px);
+}
 .card-img-top{
     height: 200px;
 }

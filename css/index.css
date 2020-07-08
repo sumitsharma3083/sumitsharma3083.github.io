@@ -176,31 +176,36 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
 
 
 
+.footer{
+    padding : 1rem 0;
+}
+.footer-text{
+    text-align: center;
+    text-transform: capitalize;
+}
+.footer-my-name{
+    color : blue ;
+}
+.fa-heart{
+    color: red;
+}
+.social-logo{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 5px ;
+    padding: 10px;
+}
+.social-icon-container{
+  
+    display: flex ; 
+   align-items: center;
+   justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-icon-container > div > a{
+    margin-right: 1rem;
+}
 
 
 @media(max-width : 950px){
@@ -302,4 +307,10 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+   
+.social-icon-container > div > a{
+    margin :10px ;
+}
+
+
 }
