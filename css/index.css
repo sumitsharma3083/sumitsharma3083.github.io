@@ -76,6 +76,12 @@ box-shadow: 3px 31px 44px -4px rgba(0,0,0,0.75);
     text-decoration: none;
    
 }
+.my-work-text{
+    color: #000;
+}
+.my-work-description{
+    color: #000;
+}
 .image-1-large{
     position: absolute; 
     top: 20% ;
